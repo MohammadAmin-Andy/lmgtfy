@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:lmgtfy/persian/screens/home_screen.dart';
 
 void main(List<String> args) {
   runApp(Application());
@@ -9,6 +10,6 @@ class Application extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return MaterialApp(debugShowCheckedModeBanner: false, home: HomeScreen());
   }
 }
