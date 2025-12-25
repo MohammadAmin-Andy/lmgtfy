@@ -10,6 +10,10 @@ class Application extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(debugShowCheckedModeBanner: false, home: HomeScreen());
+    return MaterialApp(
+      theme: ThemeData(fontFamily: "Vazir"),
+      debugShowCheckedModeBanner: false,
+      home: HomeScreen(),
+    );
   }
 }
